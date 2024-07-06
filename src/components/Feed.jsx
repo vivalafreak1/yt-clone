@@ -38,7 +38,7 @@ export default function Feed() {
         <Typography
           variant="h4"
           fontWeight="bold"
-          mb={4}
+          mb={2}
           sx={{ color: "white" }}
         >
           {selectedCategory} <span style={{ color: "#F31503" }}>videos</span>

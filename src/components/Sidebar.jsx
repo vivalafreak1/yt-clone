@@ -16,7 +16,6 @@ export default function Sidebar({ selectedCategory, setSelectedCategory }) {
           className="category-btn"
           onClick={() => setSelectedCategory(category.name)}
           style={{
-            marginTop: "20px",
             background: category.name === selectedCategory && "#FC1503",
             color: "white",
           }}
@@ -25,8 +24,8 @@ export default function Sidebar({ selectedCategory, setSelectedCategory }) {
           <span
             style={{
               color: category.name === selectedCategory ? "white" : "red",
+              marginRight: "15px",
             }}
-            className="category-btn-icon"
           >
             {category.icon}
           </span>
@@ -34,7 +33,6 @@ export default function Sidebar({ selectedCategory, setSelectedCategory }) {
             style={{
               opacity: category.name === selectedCategory ? "1" : "0.8",
             }}
-            className="category-btn-text"
           >
             {category.name}
           </span>
