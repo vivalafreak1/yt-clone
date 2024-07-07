@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# yt-clone
 
 ## About App
 
