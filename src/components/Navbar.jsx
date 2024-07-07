@@ -1,7 +1,7 @@
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import { FaYoutube } from "react-icons/fa";
 
-import { logo } from "../utils/constants";
 import SearchBar from "./SearchBar";
 export default function Navbar() {
   return (
@@ -17,7 +17,10 @@ export default function Navbar() {
       }}
     >
       <Link to="/" style={{ display: "flex", alignItems: "center" }}>
-        <img src={logo} alt="logo" height={45} />
+        <FaYoutube color="red" size={30} />
+        <Typography variant="h6" color="white" marginLeft={1}>
+          YouTube Clone
+        </Typography>
       </Link>
       <SearchBar />
     </Stack>

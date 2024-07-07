@@ -31,7 +31,7 @@ export default function Feed() {
           variant="body2"
           sx={{ mt: 1.5, color: "#FFF" }}
         >
-          Copyright 2024 Arief Taufik Rahman
+          Copyright 2024 Arief Taufik R
         </Typography>
       </Box>
       <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
